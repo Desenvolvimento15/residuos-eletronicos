@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Camphor Pro';
+    src: url(https://i05.appmifile.com/events/fonts/0111/CamphorPro-Regular.otf) format("opentype")
+}
+    
+
+body, html{
+    font-family: 'Camphor Pro';
+}
+
+
+.base01{
+
+}
+
+.base02{
+    
+}
+
+.base03{
+    
+}
+
+.base04{
+    
+}
+
+.base05{
+    
+}
+
+.base06{
+
+}
+
+.base07{
+
+}

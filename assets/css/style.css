@@ -78,6 +78,7 @@ justify-content: center;
 text-align: center;
 font-size: 3.5rem;
 color: var(--text-orange);
+margin-bottom: 1rem;
 }
 
 .title-silver{
@@ -90,6 +91,13 @@ font-weight: bold;
 .p-text{
 font-size: 2rem;
 color: var(--p-text);
+
+}
+
+.p-text-base05{
+    font-size: 2rem;
+color: var(--p-text);
+
 }
 
 .base01{
@@ -137,13 +145,14 @@ align-items: center;
 margin: 1rem;
 }
 
-.base06{
+.base06-grid{
 display: flex;
-flex-wrap: nowrap;
-align-content: center;
+flex-wrap: wrap;
+align-content: flex-start;
 justify-content: center;
 align-items: center;
-margin: 1rem;
+gap: 10rem;
+flex-direction: row-reverse;
 }
 
 .base07{
@@ -155,3 +164,13 @@ align-items: center;
 margin: 1rem;
 flex-direction: column;
 }
+
+    ul {
+        list-style-type: circle;
+        color: #ff6900;
+        font-size: 1.7rem;
+        width: 27rem;
+        line-height: 1.5;
+    }
+
+  

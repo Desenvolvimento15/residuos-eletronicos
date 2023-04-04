@@ -92,7 +92,7 @@ line-height: 1.1;
 .p-text{
 font-size: 1.5rem;
 color: var(--p-text);
-line-height: 1.1;
+line-height: 1.5;
 }
 
 .p-text-base05{
@@ -174,12 +174,12 @@ margin: 1rem;
 flex-direction: column;
 }
 
-    ul {
-        list-style-type: circle;
-        color: #ff6900;
-        font-size: 1.7rem;
-        width: 27rem;
-        line-height: 1.5;
-    }
+ul {
+list-style-type: circle;
+color: #ff6900;
+font-size: 1.5rem;
+width: 27rem;
+line-height: 1.5;
+}
 
   

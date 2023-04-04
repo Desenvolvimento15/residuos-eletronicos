@@ -1,3 +1,9 @@
+:root{
+    --text-orange: #ff6900;
+    --p-black: #868686;
+}
+
+
 *{
     margin: 0;
     padding: 0;
@@ -14,31 +20,97 @@ body, html{
     font-family: 'Camphor Pro';
 }
 
-
-.base01{
-
+img{
+max-width: 100%;
 }
 
+main{
+display: flex;
+flex-direction: column;
+flex-wrap: nowrap;
+align-content: center;
+justify-content: center;
+align-items: center;
+background-color: #fff;
+}
+
+.grid-vertical{
+    display: flex;
+}
+
+.title-oragen{
+text-align: center;
+font-size: 3.5rem;
+color: var( --text-orange);
+}
+
+.p-text{
+font-size: 2rem;
+color: var(--p-black);
+}
+
+.base01{
+display: flex;
+flex-wrap: nowrap;
+align-content: center;
+justify-content: center;
+align-items: center;
+margin: 1rem;
+}
+
+
 .base02{
-    
+display: flex;
+flex-wrap: nowrap;
+align-content: center;
+justify-content: center;
+align-items: center;
+margin: 1rem;
 }
 
 .base03{
-    
+display: flex;
+flex-wrap: nowrap;
+align-content: center;
+justify-content: center;
+align-items: center;
+margin: 1rem;
 }
 
 .base04{
+display: flex;
+flex-wrap: nowrap;
+align-content: center;
+justify-content: center;
+align-items: center;
+margin: 1rem;
     
 }
 
 .base05{
+display: flex;
+flex-wrap: nowrap;
+align-content: center;
+justify-content: center;
+align-items: center;
+margin: 1rem;
     
 }
 
 .base06{
-
+display: flex;
+flex-wrap: nowrap;
+align-content: center;
+justify-content: center;
+align-items: center;
+margin: 1rem;
 }
 
 .base07{
-
+display: flex;
+flex-wrap: nowrap;
+align-content: center;
+justify-content: center;
+align-items: center;
+margin: 1rem;
 }

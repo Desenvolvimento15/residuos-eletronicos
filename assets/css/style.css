@@ -1,23 +1,27 @@
 :root{
-    --text-orange: #ff6900;
-    --p-black: #868686;
+
+--background-main: #fff;    
+--text-orange: #ff6900;
+--title-silver: #4d4e50;
+--p-text: #4d4e50;
+--button-link:#0f7537;
+--line:linear-gradient(0deg, rgba(80,195,34,1) 0%, rgba(255,105,0,1) 58%);
+
 }
 
-
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
 }
 
 @font-face {
-    font-family: 'Camphor Pro';
-    src: url(https://i05.appmifile.com/events/fonts/0111/CamphorPro-Regular.otf) format("opentype")
+font-family: 'Camphor Pro';
+src: url(https://i05.appmifile.com/events/fonts/0111/CamphorPro-Regular.otf) format("opentype")
 }
     
-
 body, html{
-    font-family: 'Camphor Pro';
+font-family: 'Camphor Pro';
 }
 
 img{
@@ -31,22 +35,61 @@ flex-wrap: nowrap;
 align-content: center;
 justify-content: center;
 align-items: center;
-background-color: #fff;
+background-color: var(--background-main);
+}
+
+
+#linha {
+    width: 60%;
+    border-bottom: 5px solid transparent;
+    background: linear-gradient(white, white) padding-box, 
+              linear-gradient(to right,#fff, #ff6900, #ff6900, var(--button-link ), #fff) border-box;
+            ;
+              }
+
+.button-green{
+width: 62rem;
+height: 4rem;
+background-color: var(--button-link);
+text-align: center;
+color: #fff;
+border-radius: 2rem;
+display: flex;
+flex-direction: column;
+align-content: center;
+justify-content: center;
+text-decoration: none;
+font-size: 2.5rem;
+font-weight: bold;
 }
 
 .grid-vertical{
-    display: flex;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+gap: 2rem;
+width: 97rem;
+align-content: center;
+align-items: center;
+justify-items: center;
+justify-content: center;
 }
 
 .title-oragen{
 text-align: center;
 font-size: 3.5rem;
-color: var( --text-orange);
+color: var(--text-orange);
 }
 
+.title-silver{
+text-align: left;
+font-size: 3.5rem;
+color: var(--title-silver);
+font-size: 2rem;
+font-weight: bold;
+}
 .p-text{
 font-size: 2rem;
-color: var(--p-black);
+color: var(--p-text);
 }
 
 .base01{
@@ -57,7 +100,6 @@ justify-content: center;
 align-items: center;
 margin: 1rem;
 }
-
 
 .base02{
 display: flex;
@@ -84,7 +126,6 @@ align-content: center;
 justify-content: center;
 align-items: center;
 margin: 1rem;
-    
 }
 
 .base05{
@@ -94,7 +135,6 @@ align-content: center;
 justify-content: center;
 align-items: center;
 margin: 1rem;
-    
 }
 
 .base06{
@@ -110,7 +150,8 @@ margin: 1rem;
 display: flex;
 flex-wrap: nowrap;
 align-content: center;
-justify-content: center;
+justify-content: space-around;
 align-items: center;
 margin: 1rem;
+flex-direction: column;
 }

@@ -28,6 +28,7 @@ img{
 max-width: 100%;
 }
 
+
 main{
 display: flex;
 flex-direction: column;
@@ -38,14 +39,13 @@ align-items: center;
 background-color: var(--background-main);
 }
 
-
-#linha {
-    width: 60%;
-    border-bottom: 5px solid transparent;
-    background: linear-gradient(white, white) padding-box, 
-              linear-gradient(to right,#fff, #ff6900, #ff6900, var(--button-link ), #fff) border-box;
-            ;
-              }
+#linha{
+width: 60%;
+border-bottom: 5px solid transparent;
+background: linear-gradient(white, white) padding-box, 
+linear-gradient(to right,#fff, #ff6900, #ff6900, #ff6900,var(--button-link ), #fff) border-box;
+margin: 1rem;
+}
 
 .button-green{
 width: 62rem;
@@ -98,7 +98,7 @@ flex-wrap: nowrap;
 align-content: center;
 justify-content: center;
 align-items: center;
-margin: 1rem;
+padding: 2rem;
 }
 
 .base02{

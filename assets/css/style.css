@@ -45,6 +45,7 @@ align-items: center;
 background-color: var(--background-main);
 }
 
+
 @media screen and (min-width:1000px){
 
     #linha{
@@ -182,12 +183,10 @@ background-color: var(--background-main);
     flex-direction: column;
     }
 
-
 }
 
 
 @media screen and (max-width:999px){
-
 
     #linha{
     width: 60%;
@@ -240,6 +239,7 @@ background-color: var(--background-main);
     font-weight: bold;
     line-height: 1.1;
     }
+
     .p-text{
     font-size: 1.5rem;
     color: var(--p-text);
